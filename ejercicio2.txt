@@ -1,0 +1,4 @@
+C:\Users\cecil\Desktop> echo Hola mundo! > hello_world.txt
+C:\Users\cecil\Desktop> more hello_world.txt
+Hola mundo!
+C:\Users\cecil\Desktop
