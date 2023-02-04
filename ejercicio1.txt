@@ -1,0 +1,10 @@
+CD C:\
+mkdir "Command Test Folder"
+dir 
+move  "C:\Command Test Folder" "C:\Users\cecil\Desktop\Desktop"
+dir
+CD C:\Users\cecil\Desktop\Desktop
+dir
+rmdir "Command Test Folder"
+dir 
+pause
