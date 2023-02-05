@@ -1,0 +1,3 @@
+set /p "var=Ingrese un valor:"
+shutdown -s -t %var%
+TIMEOUT 10 > NULL && ECHO El timer se ha cancelado
