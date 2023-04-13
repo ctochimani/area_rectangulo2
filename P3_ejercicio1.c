@@ -21,7 +21,7 @@ void signal_handler(int signum)
 
 int main(void) 
 {
-    signal(SIGALRM, sigalrm_handler);
+    signal(SIGALRM, signal_handler);
 
     pid_V = fork();
     
